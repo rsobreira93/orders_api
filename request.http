@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:8080
+
+#@name list order
+GET {{baseUrl}}/customers/1/orders
+
+Content-Type: application/json
+
